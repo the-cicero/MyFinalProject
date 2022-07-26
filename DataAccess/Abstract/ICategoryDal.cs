@@ -7,8 +7,8 @@ using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-    public interface IProductDal: IEntityRepository<Product> // dal - data access layer
+    public interface ICategoryDal: IEntityRepository<Category>
     {
-        
+     
     }
 }
